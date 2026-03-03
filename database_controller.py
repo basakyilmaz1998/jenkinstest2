@@ -1,6 +1,6 @@
 import pymysql
 
-from base.utils.settings import SettingKeys, Settings
+from settings import SettingKeys, Settings
 
 
 def connect():
