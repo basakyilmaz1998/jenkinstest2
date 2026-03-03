@@ -1,6 +1,6 @@
 import pytest
 
-from base.database_controller import DataBaseController
+from database_controller import DataBaseController
 
 
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
