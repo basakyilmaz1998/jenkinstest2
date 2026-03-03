@@ -6,6 +6,7 @@ from settings import SettingKeys, Settings
 def connect():
     return pymysql.connect(
         host=SettingKeys.DB_HOST,
+        port=SettingKeys.DB_PORT,
         user=SettingKeys.DB_USER,
         password=SettingKeys.DB_PASSWORD,
         database=SettingKeys.DB_DATABASE
